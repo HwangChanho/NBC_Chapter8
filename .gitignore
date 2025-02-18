@@ -1,0 +1,27 @@
+# 빌드, 캐시, 임시 폴더 제외
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# 사용자 설정 파일 제외
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+#*.uasset
+
+# 로그 파일 및 임시 파일 제외
+*.log
+*.tmp
+.vs/
+*.pdb
+*.ipch
+*.db
+*.pch
+*.log
+
+# Mac 및 Linux 관련
+.DS_Store
+.idea/
